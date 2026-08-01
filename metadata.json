@@ -1,0 +1,6 @@
+{
+  "name": "Mariage Aboubakar & Zenab",
+  "description": "Landing page premium et invitation numérique officielle du mariage d'Aboubakar Sidik Fofana et Zenab Sylviane Akadi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
