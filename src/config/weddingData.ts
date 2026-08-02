@@ -48,7 +48,7 @@ export const WEDDING_DATA = {
     dressCodeText: "Tenue Blanche Exclusivité",
     dressCodeDescription: "Afin de sublimer cette journée mémorable, nous convions chaleureusement l'ensemble de nos précieux invités à se revêtir de leurs plus belles tenues blanches, symbole de pureté et d'harmonie.",
     heroImage: "/images/1.jpg",
-    couplePortrait: "/images/1.jpg",
+    couplePortrait: "/images/2.jpeg",
   },
 
   whatsappMain: "+2250759373798",
