@@ -100,7 +100,7 @@ export const WEDDING_DATA = {
       category: "Homme",
       price: "2 500 FCFA",
       priceRaw: 2500,
-      image: "/images/foulard_officiel.jpg",
+      image: "/images/1jpeg",
       description: "Étole officielle en pagne tissé traditionnel aux rayures bleu azur, vert olive, crème et noir, pour hommes et notables."
     },
     {
@@ -109,7 +109,7 @@ export const WEDDING_DATA = {
       category: "Femme",
       price: "5 000 FCFA",
       priceRaw: 5000,
-      image: "/images/foulard_officiel.jpg",
+      image: "/images/1.jpeg",
       description: "Grand foulard d'apparat en pagne tissé traditionnel assorti, aux magnifiques finitions tissées pour dames."
     }
   ] as Scarf[],
