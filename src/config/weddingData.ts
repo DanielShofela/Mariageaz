@@ -100,7 +100,7 @@ export const WEDDING_DATA = {
       category: "Homme",
       price: "2 500 FCFA",
       priceRaw: 2500,
-      image: "/images/1jpeg",
+      image: "/images/1.jpeg",
       description: "Étole officielle en pagne tissé traditionnel aux rayures bleu azur, vert olive, crème et noir, pour hommes et notables."
     },
     {
