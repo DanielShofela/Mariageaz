@@ -66,7 +66,7 @@ export default function DressCodeSection() {
               >
                 <div className="relative w-full h-full rounded-2xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800"
+                    src="/images/1.jpg"
                     alt="Dress code Tenue Blanche"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
