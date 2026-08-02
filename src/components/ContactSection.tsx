@@ -45,17 +45,11 @@ export default function ContactSection() {
                   </div>
                 </div>
 
-                <h3 className="font-serif-luxury text-lg font-semibold text-slate-900 mb-1">
+                <h3 className="font-serif-luxury text-lg font-semibold text-slate-900 mb-2">
                   {contact.name}
                 </h3>
-                
-                {contact.role && (
-                  <span className="inline-block px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 text-[11px] font-medium mb-3">
-                    {contact.role}
-                  </span>
-                )}
 
-                <p className="font-mono text-base font-bold text-slate-800 tracking-wide mb-6">
+                <p className="font-mono text-lg font-bold text-slate-800 tracking-wide mb-6">
                   {contact.phoneDisplay}
                 </p>
               </div>

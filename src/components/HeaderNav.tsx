@@ -21,7 +21,7 @@ export default function HeaderNav({ isPlayingAudio, onToggleAudio }: HeaderNavPr
       }
 
       // Track active section
-      const sections = ['hero', 'invitation', 'ceremonies', 'dress-code', 'foulards', 'galerie', 'localisation', 'rsvp', 'contacts'];
+      const sections = ['hero', 'invitation', 'ceremonies', 'dress-code', 'foulards', 'localisation', 'rsvp', 'contacts'];
       const scrollPosition = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -46,7 +46,6 @@ export default function HeaderNav({ isPlayingAudio, onToggleAudio }: HeaderNavPr
     { href: '#ceremonies', label: 'Cérémonies' },
     { href: '#dress-code', label: 'Dress Code' },
     { href: '#foulards', label: 'Foulards' },
-    { href: '#galerie', label: 'Galerie' },
     { href: '#localisation', label: 'Accès & Carte' },
     { href: '#rsvp', label: 'RSVP' },
     { href: '#contacts', label: 'Contacts' },

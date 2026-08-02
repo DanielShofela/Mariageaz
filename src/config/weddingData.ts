@@ -100,8 +100,8 @@ export const WEDDING_DATA = {
       category: "Homme",
       price: "2 500 FCFA",
       priceRaw: 2500,
-      image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800",
-      description: "Étole élégante blanche et satinée conçue sur mesure pour les hommes d'honneur et invités."
+      image: "/images/foulard_officiel.jpg",
+      description: "Étole officielle en pagne tissé traditionnel aux rayures bleu azur, vert olive, crème et noir, pour hommes et notables."
     },
     {
       id: "femme",
@@ -109,16 +109,16 @@ export const WEDDING_DATA = {
       category: "Femme",
       price: "5 000 FCFA",
       priceRaw: 5000,
-      image: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&q=80&w=800",
-      description: "Foulard de soie raffinée blanche avec finitions dorées luxueuses pour sublimer votre tenue."
+      image: "/images/foulard_officiel.jpg",
+      description: "Grand foulard d'apparat en pagne tissé traditionnel assorti, aux magnifiques finitions tissées pour dames."
     }
   ] as Scarf[],
 
   contacts: [
-    { id: "1", name: "Contact Principal (RSVP & Ventes)", phoneDisplay: "07 59 37 37 98", phoneRaw: "+2250759373798", role: "Coordination Générale" },
-    { id: "2", name: "Comité d'Organisation", phoneDisplay: "07 78 60 68 52", phoneRaw: "+2250778606852", role: "Protocole & Accueil" },
-    { id: "3", name: "Service Logistique", phoneDisplay: "07 07 48 23 63", phoneRaw: "+2250707482363", role: "Transports & Accès" },
-    { id: "4", name: "Assistance Invités", phoneDisplay: "05 85 68 82 23", phoneRaw: "+2250585688223", role: "Information & Foulards" }
+    { id: "1", name: "Infoline & Contact", phoneDisplay: "07 59 37 37 98", phoneRaw: "+2250759373798" },
+    { id: "2", name: "Infoline & Contact", phoneDisplay: "07 78 60 68 52", phoneRaw: "+2250778606852" },
+    { id: "3", name: "Infoline & Contact", phoneDisplay: "07 07 48 23 63", phoneRaw: "+2250707482363" },
+    { id: "4", name: "Infoline & Contact", phoneDisplay: "05 85 68 82 23", phoneRaw: "+2250585688223" }
   ] as ContactPerson[],
 
   gallery: [

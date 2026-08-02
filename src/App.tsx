@@ -12,7 +12,6 @@ import InvitationCard from './components/InvitationCard';
 import TimelineSection from './components/TimelineSection';
 import DressCodeSection from './components/DressCodeSection';
 import ScarvesShop from './components/ScarvesShop';
-import GallerySection from './components/GallerySection';
 import MapsSection from './components/MapsSection';
 import RSVPSection from './components/RSVPSection';
 import ContactSection from './components/ContactSection';
@@ -21,7 +20,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   const [loadingComplete, setLoadingComplete] = useState(false);
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const [isPlayingAudio, setIsPlayingAudio] = useState(true);
 
   const toggleAudio = () => {
     setIsPlayingAudio(!isPlayingAudio);
@@ -60,9 +59,6 @@ export default function App() {
 
             {/* FOULARDS OFFICIELS */}
             <ScarvesShop />
-
-            {/* GALERIE PHOTO */}
-            <GallerySection />
 
             {/* LOCALISATION & CARTES */}
             <MapsSection />

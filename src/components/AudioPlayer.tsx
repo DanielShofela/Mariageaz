@@ -9,14 +9,37 @@ export default function AudioPlayer({ isPlaying }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.play().catch(() => {
-          // Browser autoplay restriction handling
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    if (isPlaying) {
+      const attemptPlay = () => {
+        audio.play().catch(() => {
+          // Autoplay blocked by browser policy until user interaction
         });
-      } else {
-        audioRef.current.pause();
-      }
+      };
+
+      attemptPlay();
+
+      const handleUserInteraction = () => {
+        if (audio.paused) {
+          audio.play().catch(() => {});
+        }
+      };
+
+      window.addEventListener('pointerdown', handleUserInteraction, { passive: true });
+      window.addEventListener('click', handleUserInteraction, { passive: true });
+      window.addEventListener('touchstart', handleUserInteraction, { passive: true });
+      window.addEventListener('scroll', handleUserInteraction, { passive: true });
+
+      return () => {
+        window.removeEventListener('pointerdown', handleUserInteraction);
+        window.removeEventListener('click', handleUserInteraction);
+        window.removeEventListener('touchstart', handleUserInteraction);
+        window.removeEventListener('scroll', handleUserInteraction);
+      };
+    } else {
+      audio.pause();
     }
   }, [isPlaying]);
 
