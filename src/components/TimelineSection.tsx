@@ -12,7 +12,7 @@ export default function TimelineSection() {
     const endTime = end.toISOString().replace(/-|:|\.\d\d\d/g, '');
 
     const title = encodeURIComponent(`Mariage Aboubakar & Zenab - ${ceremony.title}`);
-    const details = encodeURIComponent(`Vous êtes conviés au ${ceremony.title} d'Aboubakar Sidik Fofana & Zenab Sylviane Akadi.\nLieu: ${ceremony.location} (${ceremony.addressDetail})`);
+    const details = encodeURIComponent(`Vous êtes conviés au ${ceremony.title} d'Aboubakar-Sidik & Akadi Zenab .\nLieu: ${ceremony.location} (${ceremony.addressDetail})`);
     const location = encodeURIComponent(`${ceremony.location}, ${ceremony.addressDetail}`);
 
     const gcalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startTime}/${endTime}&details=${details}&location=${location}`;
