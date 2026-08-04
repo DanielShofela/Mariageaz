@@ -87,7 +87,7 @@ export default function HeroSection() {
           <div className="relative w-full h-full rounded-2xl overflow-hidden">
             <img
               src={WEDDING_DATA.couple.heroImage}
-              alt="Aboubakar Sidik & Zenab Sylviane"
+              alt="Aboubakar-Sidik & Akadi Zenab"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out"
             />
