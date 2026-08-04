@@ -38,7 +38,7 @@ export interface GalleryImage {
 
 export const WEDDING_DATA = {
   couple: {
-    groom: "ABOUBAKAR-SIDIK",
+    groom: "FOFANA ABOUBAKAR-SIDIK",
     bride: "ZENAB AKADI",
     monogram: "A&Z",
     subtitle: "Deux cœurs. Une promesse. Une nouvelle vie commence.",
