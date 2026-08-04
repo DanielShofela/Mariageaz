@@ -32,7 +32,7 @@ export default function InvitationCard() {
           {/* Names */}
           <div className="space-y-4 mb-8">
             <h2 className="font-serif-luxury text-3xl sm:text-5xl font-light text-slate-900 tracking-tight">
-              Fofana Aboubakar Sidik
+              Fofana Aboubakar-Sidik
             </h2>
             
             <div className="flex items-center justify-center space-x-3 text-slate-400">
@@ -42,7 +42,7 @@ export default function InvitationCard() {
             </div>
 
             <h2 className="font-serif-luxury text-3xl sm:text-5xl font-light text-slate-900 tracking-tight">
-              AKADI Zenab Sylviane
+              AKADI Zenab
             </h2>
           </div>
 
