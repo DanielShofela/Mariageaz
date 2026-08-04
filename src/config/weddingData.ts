@@ -38,12 +38,12 @@ export interface GalleryImage {
 
 export const WEDDING_DATA = {
   couple: {
-    groom: "ABOUBAKAR SIDIK FOFANA",
-    bride: "ZENAB SYLVIANE AKADI",
+    groom: "ABOUBAKAR-SIDIK",
+    bride: "AKADI ZENAB",
     monogram: "A&Z",
     subtitle: "Deux cœurs. Une promesse. Une nouvelle vie commence.",
     invitationHeader: "ENSEMBLE AVEC LEURS FAMILLES",
-    invitationBody: "Nous avons l'honneur et la joie de vous inviter à célébrer l'union sacrée et le mariage d'Aboubakar Sidik et Zenab Sylviane.",
+    invitationBody: "Ont l'honneur et la joie de vous inviter à célébrer l'union sacrée et leur mariage.",
     dressCodeTitle: "Dress Code",
     dressCodeText: "Tenue Blanche Exclusivité",
     dressCodeDescription: "Afin de sublimer cette journée mémorable, nous convions chaleureusement l'ensemble de nos précieux invités à se revêtir de leurs plus belles tenues blanches, symbole de pureté et d'harmonie.",
