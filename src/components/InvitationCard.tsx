@@ -42,7 +42,7 @@ export default function InvitationCard() {
             </div>
 
             <h2 className="font-serif-luxury text-3xl sm:text-5xl font-light text-slate-900 tracking-tight">
-              Zenab AKADI
+             Akadi Zenab
             </h2>
           </div>
 
